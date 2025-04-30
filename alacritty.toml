@@ -1,0 +1,69 @@
+# Colors (Hacker Theme)
+[colors.primary]
+# Deep, rich background that's not too harsh
+background = "#0D1117"
+# Bright but not blinding foreground
+foreground = "#E5F0EC"
+
+# Normal colors
+[colors.normal]
+# Subdued black that's visible against the background
+black = "#2D3039"
+# Vibrant, warning red
+red = "#FF5370"
+# Matrix-inspired green
+green = "#00FF9C"
+# Amber warning color
+yellow = "#FFFA72"
+# Cool, calm blue
+blue = "#4EB9FF"
+# Electric purple
+magenta = "#CF92FF"
+# Teal/cyan - easy to distinguish
+cyan = "#00D8D8"
+# Not quite white, easier on the eyes
+white = "#E5F0EC"
+
+# Bright colors
+[colors.bright]
+# Deeper, more visible black
+black = "#4A4F60"
+# Brighter, more vibrant red
+red = "#FF869A"
+# Electric neon green
+green = "#7AFFC7"
+# Brighter yellow
+yellow = "#FFFAC2"
+# Glowing blue
+blue = "#7DCFFF"
+# Brighter purple/magenta
+magenta = "#E2B0FF"
+# Glowing cyan
+cyan = "#60FDFD"
+# Pure white for highlights
+white = "#FFFFFF"
+
+# Selection colors
+[colors.selection]
+text = "#0D1117"
+background = "#00FF9C"
+
+# Cursor configuration
+[cursor]
+style = { shape = "Block", blinking = "On" }
+unfocused_hollow = true
+thickness = 0.2
+
+[window]
+startup_mode="Windowed"
+title=""
+
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+bold = { family = "Hack Nerd Font", style = "Bold" }
+italic = { family = "Hack Nerd Font", style = "Italic" }
+bold_italic = { family = "Hack Nerd Font", style = "Bold Italic" }
+size = 12.0
+
+[mouse]
+hide_when_typing=true
